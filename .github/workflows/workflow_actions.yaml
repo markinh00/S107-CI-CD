@@ -41,4 +41,4 @@ jobs:
         pip install -r requirements.txt
     - name: Build project
       run: |
-        pip install .
+        python setup.py install
