@@ -5,7 +5,7 @@ from services.teacherSchedule import TeacherScheduleService
 from tests.mock_teacher_schedule import BASE_SCHEDULE
 
 
-class TestTeacherSchedule(unittest.TestCase):
+class TestTeacherSchedule2(unittest.TestCase):
     def setUp(self):
         self.mock_service = MagicMock()
         self.mock_service.return_value = BASE_SCHEDULE
@@ -37,3 +37,7 @@ class TestTeacherSchedule(unittest.TestCase):
         result = self.service.fetch_teacher_schedule()
 
         self.assertIsNone(result, "A função deve retornar None para status 500")
+
+
+if __name__ == '__main__':
+    unittest.main()

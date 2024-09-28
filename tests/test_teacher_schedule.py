@@ -4,7 +4,7 @@ from services.teacherSchedule import TeacherScheduleService
 from tests.mock_teacher_schedule import BASE_SCHEDULE
 
 
-class TestTeacherSchedule(unittest.TestCase):
+class TestTeacherSchedule1(unittest.TestCase):
     def setUp(self):
         self.mock_service = MagicMock()
         self.mock_service.return_value = BASE_SCHEDULE
@@ -89,3 +89,7 @@ class TestTeacherSchedule(unittest.TestCase):
         self.assertNotEqual(
             self.service.building, ["2"], "O prédio do professor está incorreto"
         )
+
+
+if __name__ == '__main__':
+    unittest.main()

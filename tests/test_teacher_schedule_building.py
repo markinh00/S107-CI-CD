@@ -1,5 +1,6 @@
 import unittest
 from unittest.mock import MagicMock
+
 from services.teacherSchedule import TeacherScheduleService
 from tests.mock_teacher_schedule import BASE_SCHEDULE, BASE_WRONG_SCHEDULE
 
@@ -75,3 +76,7 @@ class TestTeacherScheduleBuildingWrong(unittest.TestCase):
             1,
             "O array de prédios deve ter apenas um elemento",
         )
+
+
+if __name__ == '__main__':
+    unittest.main()
