@@ -23,9 +23,9 @@ jobs:
         pip install -r requirements.txt
     - name: Tests with unittest
       run: |
-          python -m unittest discover -s tests -v > relatorio-testes.txt
+          python suite.py
     - name: Upload artefatos
       uses: actions/upload-artifact@v3
       with:
         name: relatorio-testes
-        path: /
+        path: /suite.py
