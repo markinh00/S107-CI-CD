@@ -12,4 +12,4 @@ Para rodar os testes do projeto, com retorno verboso, rode o seguinte comando
 ```
 
 ## Referências
-O código deste projeto foi baseado [neste exercício prático de S214](https://github.com/gabrielss2406/C214-ExercicioPratico)
+O código deste projeto foi baseado [neste exercício prático de C214](https://github.com/gabrielss2406/C214-ExercicioPratico)
