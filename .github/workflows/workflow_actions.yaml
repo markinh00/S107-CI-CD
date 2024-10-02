@@ -58,6 +58,6 @@ jobs:
         run: |
           python send_email.py
         env:
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ variables.EMAIL_TO }}
+          EMAIL_FROM: ${{ variables.EMAIL_FROM }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

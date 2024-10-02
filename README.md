@@ -11,5 +11,5 @@ Para rodar os testes do projeto, com retorno verboso, rode o seguinte comando
   python suite.py
 ```
 
-## Fonte
+## Referências
 O código deste projeto foi baseado [neste exercício prático de S214](https://github.com/gabrielss2406/C214-ExercicioPratico)
