@@ -8,7 +8,7 @@ Para instalar as dependências do projeto
 ```
 Para rodar os testes do projeto, com retorno verboso, rode o seguinte comando
 ```bash
-  python -m unittest discover -s tests -v
+  python suite.py
 ```
 
 ## Fonte
